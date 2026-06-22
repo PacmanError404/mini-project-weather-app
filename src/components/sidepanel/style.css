@@ -1,0 +1,41 @@
+.side-panel{
+    max-width: 250px;
+    height: 675px;
+    color: white;
+    padding-left: 20px;
+}
+
+.weather-side-panel-header{
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.side-panel button{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    width: 175px;
+    text-align: left;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 50px;
+}
+
+.side-panel button:hover{
+    border: 2px solid #999;
+    background: #222;
+    transition: 0.25s;
+}
+
+.weather-side-panel-header:hover{
+    text-decoration: underline 2px;
+}

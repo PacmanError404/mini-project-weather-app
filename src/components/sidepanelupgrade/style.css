@@ -1,0 +1,53 @@
+.side-panel-upgrade{
+background-color: #222;
+margin-right: 20px;
+border-radius: 10px;
+line-height: 50px;
+width: 250px;
+}
+
+.upgrade-heading{
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+
+}
+
+.upgrade-title{
+    display: flex;
+}
+
+.heading-svg{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.upgrade-content{
+    line-height: normal;
+    padding-left: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.side-panel-upgrade button{
+    background-color: #444;
+    text-align: center;
+}
+
+.upgrade-button{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.upgrade-button a{
+    text-decoration: none;
+    color: white;
+}
+.upgrade-button button:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: 0.25s;
+    background: #444;
+}

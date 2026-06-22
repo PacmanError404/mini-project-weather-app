@@ -1,0 +1,30 @@
+.forecast-title-Day,.forecast-title-week{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.temperature-card{
+    display: flex;
+    gap: 1rem;
+    overflow-x: 2px;
+    overflow-y: hidden;
+    width: 93%;
+    padding: 20px;
+}
+
+.temperature-info{
+    min-width:10px;
+    flex-shrink: 0;
+    color: white;
+    font-size: 1.1em;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.temperature-card{
+    background: rgba(255,255,255,0.1);
+    height: 75px;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+.info-panel{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    max-width: 500px;
+    line-height: 40px;
+}
+
+.feature{
+    background: rgba(255,255,255,0.2);
+    width: fit-content;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    color: white;
+    font-weight: 600
+}
+
+.temperature{
+    color: white;
+    font-size: 3em;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.temperature-real{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.physical-features{
+    display: flex ;
+    flex-wrap: nowrap;
+
+}
+
+.quality{
+    display:flex ;
+    gap: 30px;
+    color: white;
+}
+
+.physical{
+    border: 2px solid transparent;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.heading{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom:-15px;
+}

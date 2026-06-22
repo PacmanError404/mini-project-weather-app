@@ -1,0 +1,18 @@
+.coordinate-portal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coordinate{
+    border: 2px solid #777;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+    margin-left: 0;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+

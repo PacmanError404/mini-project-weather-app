@@ -1,0 +1,9 @@
+.page-not-found{
+    background: url(/public/PageNotFound.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    cursor: pointer;
+}

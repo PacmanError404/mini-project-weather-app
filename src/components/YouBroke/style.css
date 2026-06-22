@@ -1,0 +1,8 @@
+.you-broke{
+    background: url(/public/YouBroke.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
