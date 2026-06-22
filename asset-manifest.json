@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mini-project-weather-app/static/css/main.939ab639.css",
+    "main.js": "/mini-project-weather-app/static/js/main.d772a8fc.js",
+    "static/js/453.d2ed222f.chunk.js": "/mini-project-weather-app/static/js/453.d2ed222f.chunk.js",
+    "static/media/background.png": "/mini-project-weather-app/static/media/background.0ae0be6611421b52f70f.png",
+    "static/media/PageNotFound.gif": "/mini-project-weather-app/static/media/PageNotFound.2077cf21f22ffc81baa4.gif",
+    "static/media/YouBroke.jpg": "/mini-project-weather-app/static/media/YouBroke.2e7a1340d6568f5136e6.jpg",
+    "index.html": "/mini-project-weather-app/index.html",
+    "main.939ab639.css.map": "/mini-project-weather-app/static/css/main.939ab639.css.map",
+    "main.d772a8fc.js.map": "/mini-project-weather-app/static/js/main.d772a8fc.js.map",
+    "453.d2ed222f.chunk.js.map": "/mini-project-weather-app/static/js/453.d2ed222f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.939ab639.css",
+    "static/js/main.d772a8fc.js"
+  ]
+}
