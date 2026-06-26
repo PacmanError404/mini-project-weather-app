@@ -35,9 +35,9 @@
 }
 
 .quality{
-    display:flex ;
     gap: 30px;
     color: white;
+    line-height: 3em;
 }
 
 .physical{
@@ -52,4 +52,12 @@
     font-size: 1.2em;
     font-weight: 600;
     margin-bottom:-15px;
+}
+
+.location-heading{
+    font-size: 2em;
+}
+
+.quality-value{
+    font-size: 1.2em;
 }

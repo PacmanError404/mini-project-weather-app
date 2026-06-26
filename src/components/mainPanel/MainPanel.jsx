@@ -10,6 +10,11 @@ const MainPanel = () => {
     const [longitude, setlongitude] = useState(0)
     const [weather, setweather] = useState({})
     const [loading, setloading] = useState(false)
+    const [random, setrandom] = useState(0)
+
+    useEffect(()=>{
+        setrandom(Math.round((Math.random()*5)))
+    })
     
     const coordinate = async (location)=>{
         try{
@@ -50,14 +55,13 @@ const MainPanel = () => {
                 if(!location.trim()==0){
                     coordinate(location);
                     console.log(weather)
-                    setlocation('');
                 }
         }}>Search Weather</button>
         <a href="https://www.google.com/maps" target='_blank'><button>Location</button></a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScqy_RsUF6zqXUCAMiOduVNQO2ydYDkqzbGsuRELbvdO-uvWA/viewform?usp=publish-editor" target='_blank'><button>Rate Us :)</button></a>
     </div>
     <Coordinates latitude={latitude} longitude={longitude} />
-    <InfoPanel weather_time={weather?.hourly?.time} weather_temp={weather?.hourly?.temperature_2m}/>
+    <InfoPanel weather_time={weather?.hourly?.time} weather_temp={weather?.hourly?.temperature_2m} random={random} location={location}/>
     <Forecast weather_time={weather?.hourly?.time} weather_temp={weather?.hourly?.temperature_2m} />
     </div>
   )
